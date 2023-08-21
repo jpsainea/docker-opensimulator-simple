@@ -1,9 +1,9 @@
 FROM mono:5.16
 
-RUN curl http://dist.opensimulator.org/opensim-0.9.0.1.tar.gz -s | tar xzf -
-ADD Regions.ini /opensim-0.9.0.1/bin/Regions/
-ADD OpenSim.ini /opensim-0.9.0.1/bin/
+RUN curl http://opensimulator.org/dist/opensim-0.9.2.2.tar.gz -s | tar xzf -
+ADD Regions.ini /opensim-0.9.2.2/bin/Regions/
+ADD OpenSim.ini /opensim-0.9.2.2/bin/
 EXPOSE 9000
-WORKDIR /opensim-0.9.0.1/bin
+WORKDIR /opensim-0.9.2.2/bin
 
 CMD [ "mono",  "./OpenSim.exe" ]

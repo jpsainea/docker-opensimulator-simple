@@ -2,9 +2,9 @@
 
 It is based on [official mono docker image](https://hub.docker.com/r/library/mono/).
 
-* [OpenSimulator](http://opensimulator.org) 0.9.0.1
+* [OpenSimulator](http://opensimulator.org) 0.9.2.2
 * Standalone Mode (port 9000)
-* Username: Test User 
+* Username: Test User
 * Password: password
 
 See [OpenSim.ini.example](https://github.com/opensim/opensim/blob/master/bin/OpenSim.ini.example) and [Regions.ini.example](https://github.com/opensim/opensim/blob/master/bin/Regions/Regions.ini.example) for available settings.
