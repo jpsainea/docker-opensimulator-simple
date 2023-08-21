@@ -51,7 +51,3 @@ http://localhost:9000/
 
 If you use Docker Toolbox or other hosts than localhost, you'll need to modify "localhost" so that it will be the same as your docker machine host name or ip. You may need to change the value of "ExternalHostName" in Regions.ini file as well. After changing, rebuild this image.
 
-
-### Maintainer
-
-Makopoppo (SL Name: Mako Nozaki)
